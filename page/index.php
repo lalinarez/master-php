@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master en PHP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+</head>
+
+<body style="padding-top: 50px;">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Mi sitio</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#home">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#about">Acerca De</a>
+                    </li>
+                    <li>
+                        <a href="#services">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1>Bienvenido a mi primera página web</h1>
+
+                <div id="home" class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Inicio</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="//images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg" class="img-responsive center-block">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit sint libero consectetur facere, quas dolor numquam. Voluptates ab exercitationem tenetur praesentium laboriosam dolore culpa nesciunt ea. Consequuntur, illo. Maxime non velit culpa cupiditate debitis, aspernatur alias omnis accusantium quod nihil eveniet! Vero ipsa rerum, odit nemo officia fugiat, inventore iste magnam incidunt dolorum quasi perferendis possimus tenetur temporibus dolores vitae quo libero? Atque cumque recusandae sunt illo rerum, pariatur aliquid accusamus rem provident praesentium illum excepturi repudiandae corrupti quibusdam omnis similique ipsa, at officiis est. Vero temporibus aspernatur perferendis optio officia, cumque quidem perspiciatis at sunt laudantium unde delectus repellat dignissimos dolorum, fuga maxime odio voluptate vel quia alias aliquam veniam quo. Quibusdam minus laudantium eligendi ea, quisquam incidunt doloribus quod reprehenderit. Maiores eveniet error, hic tenetur libero quidem iste magni neque itaque molestiae mollitia qui iusto similique culpa sint dolor suscipit saepe. Quisquam fugiat alias vero ut deserunt eum reiciendis. Molestiae pariatur omnis quidem aperiam nulla saepe nihil distinctio iusto dolore esse! Aliquam cupiditate architecto illum tenetur harum quibusdam esse quam dolorem veritatis, commodi, qui unde, dolor eligendi et blanditiis nihil quis mollitia laborum. Officiis nostrum voluptatum tempora repudiandae, officia quisquam itaque labore sed, sunt perferendis reprehenderit asperiores quaerat, quidem maxime fuga praesentium! Impedit, similique unde, sit hic eos repellendus laborum magni necessitatibus veniam soluta at ut voluptatibus quis non praesentium perferendis amet omnis! Tempora necessitatibus a asperiores ex minima quaerat optio esse voluptas. Quia, magni labore possimus aliquid doloremque illo rerum, corporis ratione consequuntur rem harum sunt autem dolorum vero. A deleniti esse minima qui consectetur adipisci cum magni vitae, pariatur, doloribus non deserunt reiciendis ipsam unde? Nesciunt saepe vel doloribus eveniet qui quos, animi distinctio, repellat, nobis nam fugiat recusandae quae vero officiis doloremque in culpa delectus quam facilis! Sit ut iure debitis minus pariatur libero labore ea eligendi cumque aspernatur non placeat animi dignissimos dolore incidunt perspiciatis nobis fugiat nostrum voluptates architecto, soluta omnis adipisci id aliquid? Odio hic dolore quo pariatur illum quisquam numquam sint eligendi aspernatur dolorum quas, totam et voluptate distinctio nam dolores exercitationem aliquid necessitatibus dolorem commodi. Libero quas velit aperiam? Deserunt beatae perspiciatis iure? Illum praesentium voluptatem eligendi ducimus ex modi odio, quaerat quibusdam, voluptate obcaecati cupiditate doloremque eius, natus a dolor aliquid neque veniam nesciunt assumenda. Unde dicta provident sit laborum minus quibusdam sapiente, aut voluptate est voluptates alias quaerat facere, ex quia dolores quos temporibus explicabo! Nisi nostrum quae quam, praesentium velit voluptatem incidunt? Dolore totam, temporibus laboriosam doloribus ratione ipsam aut aliquid, quos dolorum nulla iure eius fuga, cum excepturi maxime eos. Officia, ex, natus iure non rem eos expedita accusantium alias quasi adipisci neque? Tempora, consequatur maxime vero at repudiandae delectus facilis sed praesentium, quo deserunt provident porro facere aspernatur iusto officia quaerat error ut. Magnam saepe dolores voluptatibus eos earum quae omnis distinctio, quam asperiores sunt consequatur, rem veritatis quod accusamus. Vitae eaque autem, veritatis sed voluptatum eligendi tenetur voluptas hic tempore. Aspernatur eos saepe sit. Nostrum explicabo eos placeat nemo veniam culpa laudantium impedit dolorum!
+                    </div>
+                </div>
+                <div id="about" class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Acerca De</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="//images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg" class="img-responsive center-block">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit sint libero consectetur facere, quas dolor numquam. Voluptates ab exercitationem tenetur praesentium laboriosam dolore culpa nesciunt ea. Consequuntur, illo. Maxime non velit culpa cupiditate debitis, aspernatur alias omnis accusantium quod nihil eveniet! Vero ipsa rerum, odit nemo officia fugiat, inventore iste magnam incidunt dolorum quasi perferendis possimus tenetur temporibus dolores vitae quo libero? Atque cumque recusandae sunt illo rerum, pariatur aliquid accusamus rem provident praesentium illum excepturi repudiandae corrupti quibusdam omnis similique ipsa, at officiis est. Vero temporibus aspernatur perferendis optio officia, cumque quidem perspiciatis at sunt laudantium unde delectus repellat dignissimos dolorum, fuga maxime odio voluptate vel quia alias aliquam veniam quo. Quibusdam minus laudantium eligendi ea, quisquam incidunt doloribus quod reprehenderit. Maiores eveniet error, hic tenetur libero quidem iste magni neque itaque molestiae mollitia qui iusto similique culpa sint dolor suscipit saepe. Quisquam fugiat alias vero ut deserunt eum reiciendis. Molestiae pariatur omnis quidem aperiam nulla saepe nihil distinctio iusto dolore esse! Aliquam cupiditate architecto illum tenetur harum quibusdam esse quam dolorem veritatis, commodi, qui unde, dolor eligendi et blanditiis nihil quis mollitia laborum. Officiis nostrum voluptatum tempora repudiandae, officia quisquam itaque labore sed, sunt perferendis reprehenderit asperiores quaerat, quidem maxime fuga praesentium! Impedit, similique unde, sit hic eos repellendus laborum magni necessitatibus veniam soluta at ut voluptatibus quis non praesentium perferendis amet omnis! Tempora necessitatibus a asperiores ex minima quaerat optio esse voluptas. Quia, magni labore possimus aliquid doloremque illo rerum, corporis ratione consequuntur rem harum sunt autem dolorum vero. A deleniti esse minima qui consectetur adipisci cum magni vitae, pariatur, doloribus non deserunt reiciendis ipsam unde? Nesciunt saepe vel doloribus eveniet qui quos, animi distinctio, repellat, nobis nam fugiat recusandae quae vero officiis doloremque in culpa delectus quam facilis! Sit ut iure debitis minus pariatur libero labore ea eligendi cumque aspernatur non placeat animi dignissimos dolore incidunt perspiciatis nobis fugiat nostrum voluptates architecto, soluta omnis adipisci id aliquid? Odio hic dolore quo pariatur illum quisquam numquam sint eligendi aspernatur dolorum quas, totam et voluptate distinctio nam dolores exercitationem aliquid necessitatibus dolorem commodi. Libero quas velit aperiam? Deserunt beatae perspiciatis iure? Illum praesentium voluptatem eligendi ducimus ex modi odio, quaerat quibusdam, voluptate obcaecati cupiditate doloremque eius, natus a dolor aliquid neque veniam nesciunt assumenda. Unde dicta provident sit laborum minus quibusdam sapiente, aut voluptate est voluptates alias quaerat facere, ex quia dolores quos temporibus explicabo! Nisi nostrum quae quam, praesentium velit voluptatem incidunt? Dolore totam, temporibus laboriosam doloribus ratione ipsam aut aliquid, quos dolorum nulla iure eius fuga, cum excepturi maxime eos. Officia, ex, natus iure non rem eos expedita accusantium alias quasi adipisci neque? Tempora, consequatur maxime vero at repudiandae delectus facilis sed praesentium, quo deserunt provident porro facere aspernatur iusto officia quaerat error ut. Magnam saepe dolores voluptatibus eos earum quae omnis distinctio, quam asperiores sunt consequatur, rem veritatis quod accusamus. Vitae eaque autem, veritatis sed voluptatum eligendi tenetur voluptas hic tempore. Aspernatur eos saepe sit. Nostrum explicabo eos placeat nemo veniam culpa laudantium impedit dolorum!
+                    </div>
+                </div>
+                <div id="services" class="panel panel-warning">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Servicios</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="//images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg" class="img-responsive center-block">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit sint libero consectetur facere, quas dolor numquam. Voluptates ab exercitationem tenetur praesentium laboriosam dolore culpa nesciunt ea. Consequuntur, illo. Maxime non velit culpa cupiditate debitis, aspernatur alias omnis accusantium quod nihil eveniet! Vero ipsa rerum, odit nemo officia fugiat, inventore iste magnam incidunt dolorum quasi perferendis possimus tenetur temporibus dolores vitae quo libero? Atque cumque recusandae sunt illo rerum, pariatur aliquid accusamus rem provident praesentium illum excepturi repudiandae corrupti quibusdam omnis similique ipsa, at officiis est. Vero temporibus aspernatur perferendis optio officia, cumque quidem perspiciatis at sunt laudantium unde delectus repellat dignissimos dolorum, fuga maxime odio voluptate vel quia alias aliquam veniam quo. Quibusdam minus laudantium eligendi ea, quisquam incidunt doloribus quod reprehenderit. Maiores eveniet error, hic tenetur libero quidem iste magni neque itaque molestiae mollitia qui iusto similique culpa sint dolor suscipit saepe. Quisquam fugiat alias vero ut deserunt eum reiciendis. Molestiae pariatur omnis quidem aperiam nulla saepe nihil distinctio iusto dolore esse! Aliquam cupiditate architecto illum tenetur harum quibusdam esse quam dolorem veritatis, commodi, qui unde, dolor eligendi et blanditiis nihil quis mollitia laborum. Officiis nostrum voluptatum tempora repudiandae, officia quisquam itaque labore sed, sunt perferendis reprehenderit asperiores quaerat, quidem maxime fuga praesentium! Impedit, similique unde, sit hic eos repellendus laborum magni necessitatibus veniam soluta at ut voluptatibus quis non praesentium perferendis amet omnis! Tempora necessitatibus a asperiores ex minima quaerat optio esse voluptas. Quia, magni labore possimus aliquid doloremque illo rerum, corporis ratione consequuntur rem harum sunt autem dolorum vero. A deleniti esse minima qui consectetur adipisci cum magni vitae, pariatur, doloribus non deserunt reiciendis ipsam unde? Nesciunt saepe vel doloribus eveniet qui quos, animi distinctio, repellat, nobis nam fugiat recusandae quae vero officiis doloremque in culpa delectus quam facilis! Sit ut iure debitis minus pariatur libero labore ea eligendi cumque aspernatur non placeat animi dignissimos dolore incidunt perspiciatis nobis fugiat nostrum voluptates architecto, soluta omnis adipisci id aliquid? Odio hic dolore quo pariatur illum quisquam numquam sint eligendi aspernatur dolorum quas, totam et voluptate distinctio nam dolores exercitationem aliquid necessitatibus dolorem commodi. Libero quas velit aperiam? Deserunt beatae perspiciatis iure? Illum praesentium voluptatem eligendi ducimus ex modi odio, quaerat quibusdam, voluptate obcaecati cupiditate doloremque eius, natus a dolor aliquid neque veniam nesciunt assumenda. Unde dicta provident sit laborum minus quibusdam sapiente, aut voluptate est voluptates alias quaerat facere, ex quia dolores quos temporibus explicabo! Nisi nostrum quae quam, praesentium velit voluptatem incidunt? Dolore totam, temporibus laboriosam doloribus ratione ipsam aut aliquid, quos dolorum nulla iure eius fuga, cum excepturi maxime eos. Officia, ex, natus iure non rem eos expedita accusantium alias quasi adipisci neque? Tempora, consequatur maxime vero at repudiandae delectus facilis sed praesentium, quo deserunt provident porro facere aspernatur iusto officia quaerat error ut. Magnam saepe dolores voluptatibus eos earum quae omnis distinctio, quam asperiores sunt consequatur, rem veritatis quod accusamus. Vitae eaque autem, veritatis sed voluptatum eligendi tenetur voluptas hic tempore. Aspernatur eos saepe sit. Nostrum explicabo eos placeat nemo veniam culpa laudantium impedit dolorum!
+                    </div>
+                </div>
+                <div id="contact" class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Contacto</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="//images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg" class="img-responsive center-block">
+                        <form action="#" id="form-contact" method="POST">
+                            <div class="form-group">
+                                <label for="name">Nombre(s):</label>
+                                <input type="text" id="name" name="name" class="form-control" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico:</label>
+                                <input type="email" id="email" name="email" class="form-control" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Asunto:</label>
+                                <select id="subject" name="subject" class="form-control" required="required">
+                                    <option disabled selected>Seleccione una opción por la que desea comunicarse</option>
+                                    <option value="pregunta">Pregunta</option>
+                                    <option value="aclaración">Aclaración</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="description">Explicación:</label>
+                                <textarea id="description" name="description" class="form-control" required="required" cols="30" rows="10"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
