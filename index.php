@@ -29,3 +29,9 @@
 # require_once 'src/exercises_02/03_exercise.php';
 # require_once 'src/exercises_02/04_exercise.php';
 # require_once 'src/exercises_02/05_exercise.php';
+# require_once 'src/11_sessions_cookies.php';
+# require_once 'src/12_forms.php';
+# require_once 'src/13_files_images.php';
+# require_once 'src/exercises_03/01_exercise.php';
+# require_once 'src/exercises_03/02_exercise.php';
+# require_once 'src/exercises_03/03_exercise.php';
