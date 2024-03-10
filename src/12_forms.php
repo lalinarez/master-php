@@ -1,18 +1,18 @@
 <?php
 session_start();
 
-# Los formularios son necesarios para la comunicación entre el usuario y el sistema  
+# Los formularios permiten a los usuarios capturar datos los cuales son enviados a un servidor para ser procesados
 
 $data = $_POST;
-
-$_SESSION['response'] = null;
+$response = null;
 
 if (count($data) > 0) {
-    $response['status'] = 'success';
+    $response['type'] = 'success';
     $response['data'] = $data;
-    $response['text'] = "El registro de '{$data['firstname']} {$data['lastname']}' fue registrado con éxito";
+    $response['text'] = "El registro " . ($data['sex'] == 'H' ? 'del usuario' : 'de la usuaria') . " '{$data['firstname']} {$data['lastname']}' fue inscrito con éxito";
     $_SESSION['response'] = $response;
 }
+$_SESSION['response'] = $response;
 ?>
 
 <!DOCTYPE html>
@@ -30,7 +30,7 @@ if (count($data) > 0) {
         <?php if (isset($_SESSION['response'])): ?>
             <div class="row">
                 <div class="col-12">
-                    <div class="alert alert-<?= $_SESSION['response']['status']; ?>">
+                    <div class="alert alert-<?= $_SESSION['response']['type']; ?>">
                         <?= $_SESSION['response']['text']; ?>
                     </div>
                 </div>

@@ -1,16 +1,18 @@
 <?php
 
-# Una estructura condicional se utiliza para tomar decisiones dependiendo de un valor (verdadero o falso)
-
-# Comúnmente en las condicionales se ocupan los otros dos tipos de operadores que tiene la programación
-# OPERADORES LÓGICOS (&&, ||, ![NOT])
-# OPERADORES DE COMPARACIÓN (==, ===, !=, !==, <, >, <=, >=)
+/**
+ * Una estructura condicional se utiliza para tomar decisiones dependiendo de un valor (verdadero o falso)
+ * 
+ * Comúnmente en las condicionales se ocupan los otros dos tipos de operadores que tiene la programación
+ * OPERADORES LÓGICOS (&&, ||, ![NOT])
+ * OPERADORES DE COMPARACIÓN (==, ===, !=, !==, <, >, <=, >=)
+ */
 
 if (isset($_GET['param'])) {
     $param = $_GET['param'];
     
-    # Un operador ternario es una condicional, solamente que usa muchas menos lineas de código
-    // echo '<h1>'. $param . ' es ' . ($param % 2 == 0 ? 'par' : 'impar') . '</h1>';
+    # Un operador ternario es una condicional, solamente que usa menos lineas de código que un "if", de los cuales derivan
+    echo "<h1>{$param} es " . ($param % 2 == 0 ? 'par' : 'impar') . "</h1>";
 
     // goto message;
     

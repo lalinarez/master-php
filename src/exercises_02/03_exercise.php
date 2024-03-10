@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Ejercicio 3. Verificar si una cadena de texto esta vacía, si es así rellenarla con texto aleatorio y mostrarla
+ * Ejercicio 3. Verificar si una cadena de texto esta vacía, y si es así rellenarla con texto aleatorio y mostrarla
  */
 
 $text = 'Hola mundo desde PHP';

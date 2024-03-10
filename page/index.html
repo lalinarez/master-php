@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Master en PHP</title>
+    <title>Master en PHP | Repaso HTML</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
 </head>
 
@@ -23,16 +23,16 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#home">Inicio</a>
+                        <a href="#home"><span class="glyphicon glyphicon-home"></span> Inicio</a>
                     </li>
                     <li>
-                        <a href="#about">Acerca De</a>
+                        <a href="#about"><span class="glyphicon glyphicon-list"></span> Acerca De</a>
                     </li>
                     <li>
-                        <a href="#services">Servicios</a>
+                        <a href="#services"><span class="glyphicon glyphicon-hdd"></span> Servicios</a>
                     </li>
                     <li>
-                        <a href="#contact">Contacto</a>
+                        <a href="#contact"><span class="glyphicon glyphicon-phone"></span> Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -46,7 +46,7 @@
 
                 <div id="home" class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Inicio</h3>
+                        <h3 class="panel-title"><span class="glyphicon glyphicon-home"></span> Inicio</h3>
                     </div>
                     <div class="panel-body">
                         <img src="//images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg" class="img-responsive center-block">
@@ -55,7 +55,7 @@
                 </div>
                 <div id="about" class="panel panel-info">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Acerca De</h3>
+                        <h3 class="panel-title"><span class="glyphicon glyphicon-list"></span> Acerca De</h3>
                     </div>
                     <div class="panel-body">
                         <img src="//images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg" class="img-responsive center-block">
@@ -64,7 +64,7 @@
                 </div>
                 <div id="services" class="panel panel-warning">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Servicios</h3>
+                        <h3 class="panel-title"><span class="glyphicon glyphicon-hdd"></span> Servicios</h3>
                     </div>
                     <div class="panel-body">
                         <img src="//images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg" class="img-responsive center-block">
@@ -73,7 +73,7 @@
                 </div>
                 <div id="contact" class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Contacto</h3>
+                        <h3 class="panel-title"><span class="glyphicon glyphicon-phone"></span> Contacto</h3>
                     </div>
                     <div class="panel-body">
                         <img src="//images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg" class="img-responsive center-block">
@@ -89,17 +89,17 @@
                             <div class="form-group">
                                 <label for="subject">Asunto:</label>
                                 <select id="subject" name="subject" class="form-control" required="required">
-                                    <option disabled selected>Seleccione una opción por la que desea comunicarse</option>
+                                    <option disabled selected value>Seleccione una opción por la que desea comunicarse</option>
                                     <option value="pregunta">Pregunta</option>
                                     <option value="aclaración">Aclaración</option>
                                     <option value="otro">Otro</option>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="description">Explicación:</label>
-                                <textarea id="description" name="description" class="form-control" required="required" cols="30" rows="10"></textarea>
+                                <label for="details">Detalles:</label>
+                                <textarea id="details" name="details" class="form-control" required="required" rows="10"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> Enviar</button>
                         </form>
                     </div>
                 </div>

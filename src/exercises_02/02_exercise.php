@@ -10,18 +10,18 @@ $html = '';
 
 function show(array $data): string
 {
-    $result = '';
+    $rows = '<ol>';
     for ($i = 0; $i < count($data); $i++) {
-        $result .= '<li>' . $data[$i] . '</li>';
+        $rows .= "<li>{$i} - {$data[$i]}</li>";
     }
-    return $result;
+    $rows .= '</ol>';
+    return $rows;
 }
 
 for ($i = 1; $i < $length; $i++) {
     array_push($numbers, rand(1, 100));
 }
 
-$html .= '<h2>Números</h2><ul>';
+$html .= '<h2>Lista de números aleatorios</h2>';
 $html .= show($numbers);
-$html .= '</ul>';
 echo $html;

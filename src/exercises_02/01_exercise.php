@@ -14,26 +14,26 @@ $html = '';
 
 function show(array $data): string
 {
-    $result = '';
+    $rows = '<ol>';
     for ($i = 0; $i < count($data); $i++) {
-        $result .= '<li>' . $data[$i] . '</li>';
+        $rows .= "<li>{$i} - {$data[$i]}</li>";
     }
-    return $result;
+    $rows .= '</ol>';
+    return $rows;
 }
 
 for ($i = 1; $i <= $length; $i++) {
     array_push($numbers, rand(1, 100));
 }
 
-$html .= '<h2>Estos son mis ' . count($numbers) . ' números originales</h2><ul>';
+$html .= '<h2>Estos son mis ' . count($numbers) . ' números originales</h2>';
 $html .= show($numbers);
-$html .= '</ul>';
-
-$html .= '<h2>Así se ven ordenados</h2><ul>';
+$html .= '<h2>Así se ven ordenados</h2>';
 array_multisort($numbers);
 $html .= show($numbers);
-$html .= '</ul>';
 echo $html;
 
 $search = rand(1, 100);
-echo array_search($search, $numbers) ? 'El valor ' . $search . ' SI se encuentra en la lista.' : 'El valor ' . $search . ' NO se encuentra en la lista. Intente nuevamente con otro';
+$index = array_search($search, $numbers);
+
+echo "El valor {$search} " . ($index !== false ? 'si' : 'no' ) . ' se encuentra en esta lista' . ($index !== false ? " | indice {$index}" : '');

@@ -7,13 +7,15 @@
 if (isset($_GET['first']) and isset($_GET['second'])) {
     $first = $_GET['first'];
     $second = $_GET['second'];
+    $numbers = '';
 
     if ($first < $second) {
         for ($i = $first; $i <= $second; $i++) { 
             if ($i % 2 != 0) {
-                echo $i . '<br>';
+                $numbers .= $i . ', ';
             }
         }
+        echo substr($numbers, 0, -2);
     } else {
         echo 'El orden de tus números no es el correcto. El primer valor debe ser menor al segundo';
     }

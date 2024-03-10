@@ -17,18 +17,16 @@ if (count($data) > 0) {
             $response['text'] = 'Ocurrió un problema al subir la imagen, intente nuevamente';
         }
     } else {
-        $response['type'] = 'warning';
-        $response['text'] = 'No se encontró el directorio en el cual se almacenan las imágenes, inténtelo nuevamente';
         mkdir($storage);
+        $response['type'] = 'warning';
+        $response['text'] = 'Por favor inténtelo nuevamente';
     }
 }
-
 $_SESSION['response'] = $response;
-
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -67,7 +65,9 @@ $_SESSION['response'] = $response;
                     if ($images != false) {
                         foreach ($images as $key => $image) {
                             if ($image !== '.' && $image !== '..') {
-                                echo "<div class=\"col-3\"><img src=\"{$storage}{$image}\" class=\"img-thumbnail\"></div>";
+                                echo "<div class=\"col-3\">
+                                    <img src=\"{$storage}{$image}\" class=\"img-thumbnail\">
+                                </div>";
                             }                        
                         }
                     }                
@@ -82,5 +82,4 @@ $_SESSION['response'] = $response;
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

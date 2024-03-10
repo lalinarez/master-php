@@ -5,7 +5,7 @@
 $first = 10;
 $second = 34;
 
-echo '<table>
+echo '<table border="1">
         <thead>
             <tr><th colspan="4">Operadores Aritméticos</th></tr>
             <tr>
@@ -65,10 +65,9 @@ echo '<table>
         </tbody>
     </table>';
 
-
 # Operadores de Asignación
 
-$third = 45;
+// $third = 45;
 // $third += 5;
 // $third -= 5;
 // $third *= 5;
@@ -76,4 +75,4 @@ $third = 45;
 // $third %= 5;
 // $third **= 5;
 
-print $third;
+// print $third;

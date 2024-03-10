@@ -7,6 +7,7 @@
  * El "_once" en ambos casos sirve para solamente cargar el archivo una sola vez
  */
 
+# ========== CONCEPTOS BÁSICOS DE PROGRAMACIÓN EN PHP ==========
 # require_once 'src/01_echo_print.php';
 # require_once 'src/02_variables.php';
 # require_once 'src/03_constants.php';
@@ -35,3 +36,5 @@
 # require_once 'src/exercises_03/01_exercise.php';
 # require_once 'src/exercises_03/02_exercise.php';
 # require_once 'src/exercises_03/03_exercise.php';
+
+# ========== PHP WITH MYSQL ==========

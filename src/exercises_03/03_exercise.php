@@ -19,7 +19,6 @@ if (count($data) > 0) {
         default => 0
     };
 }
-
 ?>
 
 <!DOCTYPE html>

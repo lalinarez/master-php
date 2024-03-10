@@ -7,9 +7,9 @@
 
 // function multiplicationTable($number, $limit = 10)
 // {
-//     $results = '';
+//     $rows = '';
 //     for ($i = 1; $i <= $limit; $i++) {
-//         $results .= '<tr>
+//         $rows .= '<tr>
 //                 <td>' . $i . '</td>
 //                 <td>*</td>
 //                 <td>' . $number . '</td>
@@ -21,13 +21,13 @@
 //                 <thead>
 //                     <th colspan="5">Tabla de multiplicar del ' . $number . '</th>
 //                 </thead>
-//                 <tbody>' . $results . '</tbody>
+//                 <tbody>' . $rows . '</tbody>
 //             </table>';
 // }
 
 // function index()
 // {
-//     # Cuando se desea utilizar una variable global del archivo, debemos anteponerles la expresión "global"
+//     # Cuando se desea utilizar una variable global del archivo o aplicación dentro de una función, debemos anteponerles la expresión "global"
 //     global $first, $last;
 
 //     for ($i = $first; $i <= $last; $i++) {
@@ -36,7 +36,7 @@
 // }
 // index();
 
-# Cuando quieres utilizar muchos parámetros en una función, pero no sabes cuantos ni cuales son, simplemente coloca el operador splat (...) en el parámetro o argumento de la función solicitada
+# Cuando quieras utilizar muchos parámetros en una función, pero no sabes cuantos ni cuales son, simplemente coloca el operador splat (...) en el parámetro o argumento de la función solicitada
 # Desde la salida de PHP 8 ya podemos tipar variables, funciones, atributos, constantes y demás
 function add(int $a, int $b, int $c): int
 {

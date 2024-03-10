@@ -24,21 +24,20 @@ function show(array $data): string
     $keys = array_keys($data); // 0 => Acción, 1 => Aventura, 2 => Deportes
     $values = array_values($data); // 0 => [INFO], 1 => [INFO]
     $max = getMax($values);
-    $html = '';
+    $rows = '';
     $cont = 0;
 
     for ($i = 0; $i < $max['max']; $i++) {
-        $html .= '<tr>';
+        $rows .= '<tr>';
         for ($j = 0; $j < count($keys); $j++) {
-            $html .= '<td>' . ($values[$j][$cont] ?? '') . '</td>';
+            $rows .= '<td>' . ($values[$j][$cont] ?? '') . '</td>';
         }
         $cont++;
-        $html .= '</tr>';
+        $rows .= '</tr>';
     }
-    return $html;
+    return $rows;
 }
 
-$html = '';
 $videogames = [
     'Acción' => ['GTA 5', 'Call Of Duty', 'PUGB', 'Fornite', 'Taxi Driver', 'God Of War'],
     'Aventura' => ['Assasins Creed', 'Crash Bandicoot', 'Prince Of Persia'],
@@ -47,12 +46,13 @@ $videogames = [
     'Anime' => ['Yu-Gi-OH', 'Dragon Ball Super']
 ];
 $keys = array_keys($videogames);
+$table = '';
 
-$html .= '<table border="1"><thead><tr><th colspan="' . count($keys) . '">Listado de Videojuegos</th></tr><tr>';
+$table .= '<table border="1"><thead><tr><th colspan="' . count($keys) . '">Listado de Videojuegos</th></tr><tr>';
 foreach ($keys as $key => $value) {
-    $html .= "<th>{$value}</th>";
+    $table .= "<th>{$value}</th>";
 }
-$html .= '</tr></thead><tbody>';
-$html .= (count($keys) > 0) ? show($videogames) : '<td>No se encontraron videojuegos para mostrar</td>';
-$html .= '</tbody></table>';
-echo $html;
+$table .= '</tr></thead><tbody>';
+$table .= (count($keys) > 0) ? show($videogames) : '<td>No se encontraron videojuegos para mostrar</td>';
+$table .= '</tbody></table>';
+echo $table;

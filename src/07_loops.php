@@ -6,35 +6,33 @@ if (isset($_GET['param'])) {
     $param = $_GET['param'];
     $limit = $_GET['limit'] ?? 10;
     $i = 1;
-    $results = '';
+    $rows = '';
 
     // while ($i <= $limit) {
-    //     $results .= '<tr>
+    //     $rows .= '<tr>
     //         <td>' . $i . '</td>
     //         <td>*</td>
     //         <td>' . $param . '</td>
     //         <td>=</td>
     //         <td>' . ($i * $param) . '</td>
     //     </tr>';
-
     //     $i++;
     // }
 
-    # El DO se ejecutara por lo menos una vez, hasta que deje de cumplirse la condición del WHILE
+    # El "do" se ejecutara por lo menos una vez, hasta que deje de cumplirse la condición del "while"
     // do {
-    //     $results .= '<tr>
+    //     $rows .= '<tr>
     //         <td>' . $i . '</td>
     //         <td>*</td>
     //         <td>' . $param . '</td>
     //         <td>=</td>
     //         <td>' . ($i * $param) . '</td>
     //     </tr>';
-
     //     $i++;
     // } while ($i <= $limit);
 
     for ($i; $i <= $limit; $i++) { 
-        $results .= '<tr>
+        $rows .= '<tr>
             <td>' . $i . '</td>
             <td>*</td>
             <td>' . $param . '</td>
@@ -43,11 +41,11 @@ if (isset($_GET['param'])) {
         </tr>';
     }
 
-    echo '<table>
+    echo '<table border="1">
             <thead>
                 <th colspan="5">Tabla de multiplicar del ' . $param . '</th>
             </thead>
-            <tbody>' . $results . '</tbody>
+            <tbody>' . $rows . '</tbody>
         </table>';
 
     // $users = ['Luis Linarez', 'Francisco Natura', 'Victor Robles', 'Alberto Gonzalez', 'Angel Díaz', 'Marlene Lira'];

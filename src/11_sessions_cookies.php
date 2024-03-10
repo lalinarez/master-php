@@ -4,9 +4,9 @@
 
 /**
  * Una sesión sirve para ofrecer persistencia a ciertos datos durante las peticiones subsiguientes, siempre y cuando el usuario no cierre sesión o el navegador
- * Una cookie sirve para ofrecer persistencia a ciertos datos durante el lapso de vida dada en la misma
+ * Una cookie sirve para ofrecer persistencia a ciertos datos durante su lapso de vida
  * 
- * Las cookies no son recomendadas para almacenar información sensible puesto que es información enviada por el usuario
+ * Las cookies no son recomendadas para almacenar información sensible puesto que puede ser información enviada por el usuario
  */
 
 // $_SESSION['id'] = 1;
@@ -22,6 +22,5 @@ if (isset($_GET['theme'])) {
         'violet' => '#DE8DE3',
         default => '#FFFFFF'
     });
-    
-    echo '<style> body { background-color: ' . $_COOKIE['color-theme'] . ' !important}</style>';
+    echo '<style> body { background-color: ' . (isset($_COOKIE['color-theme']) ? $_COOKIE['color-theme'] : '#FFFFFF') . '} </style>';
 }

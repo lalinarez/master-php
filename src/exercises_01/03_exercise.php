@@ -5,8 +5,20 @@
  */
 
 $i = 1;
+$rows = '';
 
 do {
-    echo 'El cuadrado de ' . $i . ' es: ' . $i**2 . "\n";
+    $rows .= '<tr>
+        <td>' . $i . '^2</td>
+        <td>' . ($i ** 2) . '</td>
+    </tr>';
     $i++;
 } while ($i <= 40);
+
+echo '<table border="1">
+        <thead>
+            <th>Número</th>
+            <th>Resultado</th>
+        </thead>
+        <tbody>' . $rows . '</tbody>
+    </table>';

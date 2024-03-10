@@ -1,6 +1,6 @@
 <?php
 
-# Un array o arreglo es una colección de datos que suelen ser del mismo tipo
+# Un arreglo es un tipo de dato estructurado que almacena datos, del mismo tipo y relacionados
 
 // $sum = 0;
 // $numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -16,19 +16,14 @@ $companies = ['CMLL', 'AAA', 'IWRG', 'BIG LUCHA WORLD', 'WWE', 'AEW', 'ROH', 'NJ
 array_push($companies, 'PWG', 'AJPW');
 array_multisort($companies);
 $list .= '<h2>Listado de empresas que se dedican a la lucha libre</h2><ul>';
-// foreach ($companies as $key => $company) {
-//     $list .= '<li>' . $company . '</li>';
-// }
 array_map(function ($company) {
     global $list;
     $list .= '<li>' . $company . '</li>';
 }, $companies);
-
 $list .= '</ul>';
 echo $list;
 
-# Los arreglos asociativos son aquellos que emparejan una llave con un valor dependiendo la misma
-
+# Los arreglos asociativos son un tipo "avanzado" de arreglo: permiten agrupar una serie de elementos del mismo tipo. Cada elemento del arreglo está indexado en cualquier tipo de información (y no solo en un índice numérico, como normalmente)
 // $movie = ['id' => 1, 'title' => 'Forrest Gump', 'slug' => 'forrest-gump', 'description' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci maxime nobis esse quaerat cum nulla quae dolor iste accusamus. Praesentium.', 'year' => '1994'];
 // echo "<h1>{$movie['title']} - <span style=\"color: blue;\">{$movie['year']}</span></h1><p>{$movie['description']}</p><a href=\"#movie-{$movie['slug']}-watch\">Ver</a>";
 

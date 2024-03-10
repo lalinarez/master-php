@@ -6,18 +6,17 @@
 
 $i = 1;
 $e = 1;
-$results = '';
+$rows = '';
 
 for ($i; $i <= 10; $i++) {
     while ($e <= 10) {
-        $results .= '<tr>
+        $rows .= '<tr>
             <td>' . $i . '</td>
             <td>*</td>
             <td>' . $e . '</td>
             <td>=</td>
             <td>' . ($i * $e) . '</td>
         </tr>';
-
         $e++;
     }
 
@@ -25,9 +24,9 @@ for ($i; $i <= 10; $i++) {
         <thead>
             <th colspan="5">Tabla de multiplicar del ' . $i . '</th>
         </thead>
-        <tbody>' . $results . '</tbody>
-    </table>';
+        <tbody>' . $rows . '</tbody>
+    </table><hr>';
  
     $e = 1;
-    $results = '';
+    $rows = '';
 }

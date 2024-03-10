@@ -8,5 +8,5 @@
 $continent = 'América'; //string
 $country = 'México'; //string
 
-echo "<h2>Sabemos que nos visita desde {$country}/{$continent}, bienvenido!</h2>";
+echo "<h2>Hola, sabemos que usted nos visita desde {$country}/{$continent}</h2>";
 
